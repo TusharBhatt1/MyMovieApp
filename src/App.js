@@ -19,7 +19,7 @@ function App() {
         <Route path="movies/:id" element={<Card/>}/>
         <Route path="movies/:type" element={<h1>MOVIE TYPE</h1>}/>
         <Route path="/search" element={<SearchBar/>}/>
-        <Route path="/MovieApp" element={<Home/>}/>
+        <Route path="/MovieApp/" element={<Home/>}/>
       
       </Routes>
     </Router>
