@@ -1,0 +1,11 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+   margin-left: 20px;
+   gap:10vw;
+   padding: 15px;
+
+   >a>span:hover{
+    color: rgb(203, 47, 47);
+   }
+}

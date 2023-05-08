@@ -1,0 +1,41 @@
+.poster{
+    padding: 5vh;
+    margin: auto;
+
+
+   .posterImage>img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    opacity: .7;
+    
+    
+
+   }
+.posterImage_overlay{
+    // background-color: coral;
+    position: absolute;
+    bottom:40px ;
+    text-decoration: none;
+    text-align: start;
+    line-height: 1.5rem;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+
+    .postertitle
+    {
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .posterdescription{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+}
+}
